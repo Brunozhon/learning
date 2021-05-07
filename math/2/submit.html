@@ -1,0 +1,18 @@
+---
+title: Result
+layout: main
+---
+
+<h1 id="result"></h1>
+
+<a href="https://brunozhon.github.io/learning/math/2/">Do it again</a> or <a href="https://brunozhon.github.io/learning/">go back home.</a>
+
+<script>
+  if (location.search == "?q1s=1233&q2s=correct&q3as=yes&q3bs=11x11%3Dx&q4a=12&q4b=350&q4c=%23ff8000&q4b=12") {
+    document.getElementById("result").innerHTML = "You got all of the problems correct!";
+  } else if (location.search == "?") {
+    location.assign("https://brunozhon.github.io/learning/math/2/")
+  } else {
+    document.getElementById("result").innerHTML = "You got some or all of the problems wrong. Too bad.";
+  }
+</script>
