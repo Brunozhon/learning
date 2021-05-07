@@ -14,3 +14,11 @@ a:hover {
 a:active {
   color: lightblue;
 }
+table, td, th {
+  border: 1px solid white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
