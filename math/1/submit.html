@@ -10,6 +10,8 @@ layout: main
 <script>
   if (location.search == "?q1=45&q2=39.5kg&q3=7&q4=5%2C+11&q5=6+13%2C7+15") {
     document.getElementById("result").innerHTML = "You got all of the problems correct!";
+  } else if (location.search = "?") {
+    location.assign("https://brunozhon.github.io/learning/math/1/")
   } else {
     document.getElementById("result").innerHTML = "You got some or all of the problems wrong. Too bad.";
   }
