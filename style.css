@@ -2,6 +2,15 @@ body {
   background-color: black;
   color: white;
 }
-a:link, a:visited, a:hover, a:active {
+a:link {
+  color: lightblue;
+}
+a:visited {
+  color: lightblue;
+}
+a:hover {
+  color: lightblue;  
+}
+a:active {
   color: lightblue;
 }
