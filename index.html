@@ -8,8 +8,8 @@ title: Learning center
 <h2>Math</h2>
 
 <ul>
-  <li><a href="math/1/">Lesson 1</a></li>
-  <li><a href="math/2/">Lesson 2</a></li>
+  <li><a href="math/1/">Lesson 1</a> <noscript style="color: red">This website won't be able to check this because the browser doesn't support JavaScript</noscript></li>
+  <li><a href="math/2/">Lesson 2</a> <noscript style="color: red">This website won't be able to check this because the browser doesn't support JavaScript</noscript></li>
   <li><a href="math/Lesson3.pdf" target="_blank">Lesson 3 - PDF File</a></li>
   <li><a href="math/test">Take the math test</a></li>
 </ul>
@@ -17,5 +17,13 @@ title: Learning center
 <h2>ELA</h2>
 
 <ul>
-  <li><a href="ela/1/">Lesson 1</a></li>
+  <li><a href="ela/1/">Lesson 1</a> <noscript style="color: red">This website won't be able to check this because the browser doesn't support JavaScript</noscript></li>
 </ul>
+
+<h2>JavaScript testing</h2>
+
+<div id="testjs"><noscript>Your browser doesn't support JavaScript.</noscript></div>
+
+<script>
+  document.getElementById("testjs").innerHTML = "Your browser supports JavaScript.";
+</script>
