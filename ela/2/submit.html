@@ -1,0 +1,19 @@
+
+---
+title: Result
+layout: main
+---
+
+<h1 id="result"></h1>
+
+<a href="https://brunozhon.github.io/learning/ela/2/">Do it again</a> or <a href="https://brunozhon.github.io/learning/">go back home.</a>
+
+<script>
+  if (location.search == "?q1=it-includes-god&q2=play&q3a=noun&q3b=noun-phrase&q3c=verb-phrase&q4=adventure-story") {
+    document.getElementById("result").innerHTML = "You got all of the problems correct!";
+  } else if (location.search == "?") {
+    location.assign("https://brunozhon.github.io/learning/ela/1/")
+  } else {
+    document.getElementById("result").innerHTML = "You got some or all of the problems wrong. Too bad.";
+  }
+</script>
