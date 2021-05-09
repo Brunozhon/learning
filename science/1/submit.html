@@ -1,0 +1,18 @@
+---
+title: Result
+layout: main
+---
+
+<h1 id="result"></h1>
+
+<a href="https://brunozhon.github.io/learning/science/1/">Do it again</a> or <a href="https://brunozhon.github.io/learning/">go back home.</a>
+
+<script>
+  if (location.search == "?q1a=water&q1b=butane&q2=O&q3a=CH&q3b=2") {
+    document.getElementById("result").innerHTML = "You got all of the problems correct!";
+  } else if (location.search == "?") {
+    location.assign("https://brunozhon.github.io/learning/science/1/")
+  } else {
+    document.getElementById("result").innerHTML = "You got some or all of the problems wrong. Too bad.";
+  }
+</script>
